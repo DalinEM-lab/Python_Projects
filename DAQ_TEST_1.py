@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Nov  2 21:24:55 2025
+Created on Sun Oct  12 21:24:55 2025
 
-@author: pc-1
+@author: X-51
 """
 
 import pyvisa
