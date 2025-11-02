@@ -261,16 +261,16 @@ def main():
             cycle += 1
     
     except KeyboardInterrupt:
-        print("\n\n⚠ Program interrupted by user (Ctrl+C)")
+        print("Program interrupted by user (Ctrl+C)")
     
     except Exception as e:
-        print(f"\n✗ Unexpected error: {e}")
+        print(f"\n Unexpected error: {e}")
     
     finally:
         
         print("SHUTDOWN SEQUENCE")
         smu.close()
-        print("\n✓ System shutdown complete")
+        print("\n System shutdown complete")
 
 
 if __name__ == "__main__":
